@@ -47,7 +47,7 @@ export SiamMask=$PWD
 - Setup python environment
 ```
 conda create -n siammask python=3.6
-source activate siammask
+conda activate siammask
 pip install -r requirements.txt
 bash make.sh
 ```
